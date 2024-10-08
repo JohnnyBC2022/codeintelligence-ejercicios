@@ -2,24 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-class Persona {
-    private String nombre;
-    private int edad;
-
-    public Persona(String nombre, int edad) {
-        this.nombre = nombre;
-        this.edad = edad;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public int getEdad() {
-        return edad;
-    }
-}
-
 public class BusquedaPersona {
     public static void main(String[] args) {
         List<Persona> personas = new ArrayList<>();
