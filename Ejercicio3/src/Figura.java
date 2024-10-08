@@ -9,7 +9,7 @@ public abstract class Figura {
     public String calcularAreaConFormato(){
         double area = calcularArea();
         DecimalFormat decimalFormat = new DecimalFormat("#.00");
-        return  decimalFormat.format(area);
+        return decimalFormat.format(area);
     }
 }
 
